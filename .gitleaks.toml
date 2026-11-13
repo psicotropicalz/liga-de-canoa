@@ -1,0 +1,8 @@
+title = "Liga de Canoa — gitleaks"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Plantillas sin valores"
+paths = ['''\.env\.example$''']

@@ -1,0 +1,35 @@
+# Dependencias y builds
+node_modules/
+dist/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# SECRETOS — nunca versionar (ver §5 del documento maestro)
+.env
+.env.*
+!.env.example
+serviceAccount*.json
+*-service-account*.json
+secrets/
+*.pem
+*.key
+
+# Documentos internos — solo en local, no se publican (repo público)
+PROYECTO_LIGA_DE_CANOA.md
+CLAUDE.md
+.claude/
+docs/decisions.md
+
+# Firebase local
+.firebase/
+firebase-debug.log*
+firestore-debug.log
+ui-debug.log
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/settings.local.json
